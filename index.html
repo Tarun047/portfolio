@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>My Home page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+        <link href="https://fonts.googleapis.com/css?family=Stylish&display=swap" rel="stylesheet">
+        <script>
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction() 
+        {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) 
+            {
+                document.getElementById("navbar").style.top = "-10";
+                
+            } 
+            else 
+            {
+                document.getElementById("navbar").style.top = "0";
+                
+            }
+        }
+        </script>
+    </head>
+    <body>
+        <div id="navbar" class='nav-bar'>
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+                <li><a href="#about">My Gallery with a grid of photos</a></li>
+            </ul>
+        </div>
+        <div class="main-container">
+            <div>
+                <h3> A short pitch about me! </h3>
+                <iframe width="50%" height="50%" src="https://www.youtube.com/embed/GtfmeUMqLE0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <h2> Why should you trust me ?</h2>
+            <ul>
+                <li>
+                    <img src="static/trophy.svg" alt="Experience beats everything" height="25px" width="25px"/>
+                    <div>Proven Track Record</div>
+                </li>
+                <li>
+                    <img src="static/tick.svg" alt="Certifications are given only for those who deserve it" height="25px" width="25px"/>
+                    <div>Fulfill the requirements</div>
+                </li>
+                <li>
+                    <img src="static/programming.svg" alt="Skills are most important" height="25px" width="25px" />
+                    <div>High Quality Code</div>
+                </li>
+                
+            </ul>
+            <ul>
+                <li>
+                    <img src="static/hourglass.svg" alt="Time and tide wait for none" height="25px" width="25px" />
+                    <div>Stick to Deadlines</div>
+                </li>
+                <li>
+                    <img src="static/customer-review.svg" alt="Satisfaction says it all" height="25px" width="25px" />
+                    <div>Full 100 % Satisfaction</div>
+                </li>
+                <li>
+                    <img src="static/rocket.svg" alt="Climax is always important" height="25px" width="25px" />
+                    <div> Deployment Guidance</div>
+                </li>
+            </ul>
+        </div>
+        <div class="footer">
+            Made with <span class="heart">❤</span> by Tarun Gudipati
+        </div>
+    </body>
+</html>

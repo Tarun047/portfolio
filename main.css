@@ -1,0 +1,109 @@
+div.nav-bar
+{
+    background-color: #333;
+    position: fixed; 
+    width: 100%; 
+    top: 0px;
+    left: 0px;
+    transition: top 0.3s; 
+}
+div.nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    background-color: #333;
+  }
+
+div.nav-bar ul li
+{
+    float: left;
+}
+
+div.nav-bar ul li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+div.nav-bar ul li a:hover
+{
+    background-color: cornflowerblue
+}
+
+
+.active
+{
+    background-color: cornflowerblue;
+}
+
+
+body
+{
+    background-color:#fff;
+    width: auto;
+    height: auto;
+    font-family:  'Stylish', sans-serif;
+}
+
+div.main-container
+{
+    text-align: center;
+    justify-content: center;
+    width: 100%
+}
+div.main-container ul
+{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+    flex-grow: inherit;
+    flex-basis: 50%;
+}
+div.main-container ul li
+{
+    float: left;
+    padding: 16px;
+    margin: 14px;
+}
+
+div.main-container ul li div
+{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.left-sub-container
+{
+    text-align: left;
+    float: left;
+    left: 0px
+}
+.central-sub-container
+{
+    text-align: center;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.right-sub-container
+{
+    float: right;
+}
+
+
+.footer
+{
+   position: relative;
+   width: auto;
+   text-align: center;
+   
+}
